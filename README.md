@@ -10,7 +10,7 @@ Built with:
 
 ---
 
-## 📌 Features
+## Features
 
 - Scrapes real housing listings from Redfin  
 - Cleans and preprocesses data using pandas  
@@ -21,7 +21,7 @@ Built with:
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### 1. Data Collection
 Data is scraped from [Redfin](https://www.redfin.com/), and includes:
@@ -66,20 +66,20 @@ https://aung-thu-real-estate-price-predictor.streamlit.app/
 ## Project Structure
 
 ```bash
-├── app.py                  # Streamlit app
-├── requirements.txt        # Dependencies
-├── price_model.pkl         # Trained ML model
-├── scaler.pkl              # Feature scaler
-├── redfin_async_batched.csv # Cleaned dataset
-├── real_estate_scraper.ipynb # Web scrapper
-├── data_cleaning_and_ML_modeling.ipynb # Data Cleaning process
-└── README.md               # This file
+├── app.py                                  # Streamlit app
+├── requirements.txt                        # Dependencies
+├── price_model.pkl                         # Trained ML model
+├── scaler.pkl                              # Feature scaler
+├── redfin_async_batched.csv                # Cleaned dataset
+├── real_estate_scraper.ipynb               # Web scrapper
+├── data_cleaning_and_ML_modeling.ipynb     # Data Cleaning process
+└── README.md                               # This file
 ```
 ---
 
 ## Example Prediction
 
-Input: 3 beds, 2 baths, 1500 sqft, Lat: 34.05, Lon: -118.24
+Input: 3 beds, 2 baths, 1500 sqft, Lat: 34.05, Lon: -118.24.  
 Output: $825,000 predicted price
 
 ---
